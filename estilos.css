@@ -1,0 +1,99 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.padre {
+display: flex;
+flex-flow: column nowrap;
+}
+
+    .header{
+        background: burlywood;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+        .menu{
+            background: #bbe4e6;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+        }
+
+            .logo{
+                background: #a37d6f;
+                flex: 1 1 auto;
+                height: 40px;
+            }
+            .nav{
+                background: #a37d6f;
+                flex: 5 1 auto;
+                height: 40px;
+            }
+            .social{
+                background: #a37d6f;
+                flex: 1 1 auto;
+                height: 40px;
+            }
+        .texto-principal{
+            background: #bbe4e6;
+        }
+            h1{
+                background: rgb(207, 201, 241);
+            }
+
+
+    .section{
+        background: burlywood;
+        display: flex;
+
+    }
+        .articulos{
+            background: rgb(183, 183, 248);
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: rgb(64, 94, 94);
+                flex: 1 1 40%;
+            }
+        
+         .aside{
+             background: rgb(235, 137, 137);
+             flex: 1 1 ;
+        }
+            .publicidad{
+                background: rgb(121, 97, 89);
+            }
+
+    
+    footer{
+        background: burlywood;
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background: rgb(116, 153, 153);
+            width: 300px;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
